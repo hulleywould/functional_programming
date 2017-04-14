@@ -1,5 +1,5 @@
 defmodule Solution do
-    def filter_odd() do
+    def filter_odd do
         _ = IO.gets("")
         IO.read(:stdio, :all)
             |> String.strip

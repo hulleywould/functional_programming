@@ -1,5 +1,5 @@
 defmodule Solution do
-    def filter_array() do
+    def filter_array do
         num = IO.gets("") |> String.strip |> String.to_integer
         data = IO.read(:stdio, :all) |> String.strip |> String.split
         data
@@ -8,4 +8,4 @@ defmodule Solution do
             |> IO.puts
     end
 end
-Solution.filter_array()
+Solution.filter_array
